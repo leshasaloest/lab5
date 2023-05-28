@@ -12,7 +12,7 @@ def primitive_checker(p):
 
 
 if __name__ == '__main__':
-    p = 47
+    p = 23
     generators_list = primitive_checker(p)
     print(generators_list)
     for _ in generators_list:
